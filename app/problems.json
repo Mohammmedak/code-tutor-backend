@@ -1,0 +1,340 @@
+[
+  {
+    "title": "طباعة Hello World",
+    "description": "اكتب برنامج يطبع كلمة Hello World",
+    "difficulty": "Easy",
+    "sample_input": "",
+    "sample_output": "Hello World",
+    "hint": "استخدم print()",
+    "test_cases": [
+      {"input": "", "output": "Hello World"}
+    ]
+  },
+  {
+    "title": "مجموع عددين",
+    "description": "اكتب برنامج يقرأ عددين ويطبع مجموعهما",
+    "difficulty": "Easy",
+    "sample_input": "3\n5",
+    "sample_output": "8",
+    "hint": "استخدم int(input())",
+    "test_cases": [
+      {"input": "3\n5", "output": "8"},
+      {"input": "10\n20", "output": "30"},
+      {"input": "0\n0", "output": "0"},
+      {"input": "100\n200", "output": "300"}
+    ]
+  },
+  {
+    "title": "زوجي أم فردي",
+    "description": "اكتب برنامج يقرأ عدداً ويطبع Even أو Odd",
+    "difficulty": "Easy",
+    "sample_input": "4",
+    "sample_output": "Even",
+    "hint": "استخدم % 2",
+    "test_cases": [
+      {"input": "4", "output": "Even"},
+      {"input": "7", "output": "Odd"},
+      {"input": "0", "output": "Even"},
+      {"input": "13", "output": "Odd"},
+      {"input": "100", "output": "Even"}
+    ]
+  },
+  {
+    "title": "أكبر عددين",
+    "description": "اكتب برنامج يقرأ عددين ويطبع الأكبر",
+    "difficulty": "Easy",
+    "sample_input": "5\n9",
+    "sample_output": "9",
+    "hint": "استخدم max() أو if",
+    "test_cases": [
+      {"input": "5\n9", "output": "9"},
+      {"input": "20\n10", "output": "20"},
+      {"input": "7\n7", "output": "7"},
+      {"input": "0\n5", "output": "5"}
+    ]
+  },
+  {
+    "title": "عكس نص",
+    "description": "اكتب برنامج يقرأ نصاً ويطبعه معكوساً",
+    "difficulty": "Easy",
+    "sample_input": "hello",
+    "sample_output": "olleh",
+    "hint": "استخدم [::-1]",
+    "test_cases": [
+      {"input": "hello", "output": "olleh"},
+      {"input": "python", "output": "nohtyp"},
+      {"input": "abc", "output": "cba"},
+      {"input": "a", "output": "a"}
+    ]
+  },
+  {
+    "title": "مجموع 1 إلى N",
+    "description": "اكتب برنامج يقرأ عدداً n ويطبع مجموع الأرقام من 1 إلى n",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "15",
+    "hint": "استخدم n*(n+1)//2",
+    "test_cases": [
+      {"input": "5", "output": "15"},
+      {"input": "10", "output": "55"},
+      {"input": "1", "output": "1"},
+      {"input": "100", "output": "5050"}
+    ]
+  },
+  {
+    "title": "عدد الحروف بدون مسافات",
+    "description": "اكتب برنامج يقرأ نصاً ويطبع عدد الحروف بدون مسافات",
+    "difficulty": "Easy",
+    "sample_input": "hello world",
+    "sample_output": "10",
+    "hint": "استخدم replace و len",
+    "test_cases": [
+      {"input": "hello world", "output": "10"},
+      {"input": "abc", "output": "3"},
+      {"input": "a b c", "output": "3"}
+    ]
+  },
+  {
+    "title": "تحويل درجات",
+    "description": "اكتب برنامج يقرأ درجة حرارة بالسيلزيوس ويحولها للفهرنهايت\nالمعادلة: F = C * 9/5 + 32",
+    "difficulty": "Easy",
+    "sample_input": "0",
+    "sample_output": "32.0",
+    "hint": "F = C * 9/5 + 32",
+    "test_cases": [
+      {"input": "0", "output": "32.0"},
+      {"input": "100", "output": "212.0"},
+      {"input": "37", "output": "98.6"}
+    ]
+  },
+  {
+    "title": "مربع عدد",
+    "description": "اكتب برنامج يقرأ عدداً ويطبع مربعه",
+    "difficulty": "Easy",
+    "sample_input": "5",
+    "sample_output": "25",
+    "hint": "استخدم ** 2 أو * نفسه",
+    "test_cases": [
+      {"input": "5", "output": "25"},
+      {"input": "3", "output": "9"},
+      {"input": "10", "output": "100"},
+      {"input": "0", "output": "0"}
+    ]
+  },
+  {
+    "title": "هل النص palindrome؟",
+    "description": "اكتب برنامج يقرأ نصاً ويطبع Yes إذا كان palindrome و No إذا لم يكن\nPalindrome: النص يُقرأ نفسه من الاتجاهين",
+    "difficulty": "Easy",
+    "sample_input": "racecar",
+    "sample_output": "Yes",
+    "hint": "قارن النص بعكسه [::-1]",
+    "test_cases": [
+      {"input": "racecar", "output": "Yes"},
+      {"input": "hello", "output": "No"},
+      {"input": "madam", "output": "Yes"},
+      {"input": "abc", "output": "No"}
+    ]
+  },
+  {
+    "title": "مضروب عدد",
+    "description": "اكتب برنامج يقرأ عدداً n ويطبع مضروبه n!",
+    "difficulty": "Medium",
+    "sample_input": "5",
+    "sample_output": "120",
+    "hint": "5! = 5×4×3×2×1",
+    "test_cases": [
+      {"input": "5", "output": "120"},
+      {"input": "0", "output": "1"},
+      {"input": "3", "output": "6"},
+      {"input": "10", "output": "3628800"}
+    ]
+  },
+  {
+    "title": "عدد أولي",
+    "description": "اكتب برنامج يقرأ عدداً ويطبع Prime أو Not Prime",
+    "difficulty": "Medium",
+    "sample_input": "7",
+    "sample_output": "Prime",
+    "hint": "العدد الأولي لا يقبل القسمة إلا على 1 وعلى نفسه",
+    "test_cases": [
+      {"input": "7", "output": "Prime"},
+      {"input": "4", "output": "Not Prime"},
+      {"input": "2", "output": "Prime"},
+      {"input": "1", "output": "Not Prime"},
+      {"input": "13", "output": "Prime"},
+      {"input": "9", "output": "Not Prime"}
+    ]
+  },
+  {
+    "title": "فيبوناتشي",
+    "description": "اكتب برنامج يقرأ عدداً n ويطبع العنصر رقم n من متتالية فيبوناتشي",
+    "difficulty": "Medium",
+    "sample_input": "6",
+    "sample_output": "8",
+    "hint": "0, 1, 1, 2, 3, 5, 8, 13...",
+    "test_cases": [
+      {"input": "6", "output": "8"},
+      {"input": "0", "output": "0"},
+      {"input": "1", "output": "1"},
+      {"input": "10", "output": "55"}
+    ]
+  },
+  {
+    "title": "ترتيب 3 أعداد",
+    "description": "اكتب برنامج يقرأ 3 أعداد ويطبعها مرتبة من الأصغر للأكبر مفصولة بمسافة",
+    "difficulty": "Medium",
+    "sample_input": "3\n1\n2",
+    "sample_output": "1 2 3",
+    "hint": "استخدم sort()",
+    "test_cases": [
+      {"input": "3\n1\n2", "output": "1 2 3"},
+      {"input": "9\n5\n7", "output": "5 7 9"},
+      {"input": "1\n1\n1", "output": "1 1 1"}
+    ]
+  },
+  {
+    "title": "عدد الأرقام الزوجية في قائمة",
+    "description": "اكتب برنامج يقرأ عدداً n ثم يقرأ n عدداً ويطبع عدد الأرقام الزوجية",
+    "difficulty": "Medium",
+    "sample_input": "5\n1\n2\n3\n4\n5",
+    "sample_output": "2",
+    "hint": "استخدم حلقة for وتحقق من % 2",
+    "test_cases": [
+      {"input": "5\n1\n2\n3\n4\n5", "output": "2"},
+      {"input": "3\n2\n4\n6", "output": "3"},
+      {"input": "4\n1\n3\n5\n7", "output": "0"}
+    ]
+  },
+  {
+    "title": "أكبر عدد في قائمة",
+    "description": "اكتب برنامج يقرأ عدداً n ثم يقرأ n عدداً ويطبع أكبرها",
+    "difficulty": "Medium",
+    "sample_input": "4\n3\n7\n1\n9",
+    "sample_output": "9",
+    "hint": "استخدم max()",
+    "test_cases": [
+      {"input": "4\n3\n7\n1\n9", "output": "9"},
+      {"input": "3\n5\n2\n8", "output": "8"},
+      {"input": "1\n42", "output": "42"}
+    ]
+  },
+  {
+    "title": "عكس قائمة",
+    "description": "اكتب برنامج يقرأ عدداً n ثم يقرأ n عدداً ويطبعها معكوسة مفصولة بمسافة",
+    "difficulty": "Medium",
+    "sample_input": "4\n1\n2\n3\n4",
+    "sample_output": "4 3 2 1",
+    "hint": "استخدم [::-1]",
+    "test_cases": [
+      {"input": "4\n1\n2\n3\n4", "output": "4 3 2 1"},
+      {"input": "3\n5\n6\n7", "output": "7 6 5"},
+      {"input": "1\n9", "output": "9"}
+    ]
+  },
+  {
+    "title": "مجموع أرقام عدد",
+    "description": "اكتب برنامج يقرأ عدداً ويطبع مجموع أرقامه\nمثال: 123 = 1+2+3 = 6",
+    "difficulty": "Medium",
+    "sample_input": "123",
+    "sample_output": "6",
+    "hint": "حوّل العدد لنص وادمج أرقامه",
+    "test_cases": [
+      {"input": "123", "output": "6"},
+      {"input": "999", "output": "27"},
+      {"input": "100", "output": "1"},
+      {"input": "5", "output": "5"}
+    ]
+  },
+  {
+    "title": "تكرار كلمة",
+    "description": "اكتب برنامج يقرأ كلمة وعدداً n ويطبع الكلمة n مرة مفصولة بمسافة",
+    "difficulty": "Medium",
+    "sample_input": "hello\n3",
+    "sample_output": "hello hello hello",
+    "hint": "استخدم * أو حلقة for",
+    "test_cases": [
+      {"input": "hello\n3", "output": "hello hello hello"},
+      {"input": "hi\n1", "output": "hi"},
+      {"input": "bye\n4", "output": "bye bye bye bye"}
+    ]
+  },
+  {
+    "title": "حساب المتوسط",
+    "description": "اكتب برنامج يقرأ عدداً n ثم يقرأ n عدداً ويطبع متوسطها",
+    "difficulty": "Medium",
+    "sample_input": "4\n10\n20\n30\n40",
+    "sample_output": "25.0",
+    "hint": "المتوسط = المجموع / العدد",
+    "test_cases": [
+      {"input": "4\n10\n20\n30\n40", "output": "25.0"},
+      {"input": "2\n5\n5", "output": "5.0"},
+      {"input": "3\n1\n2\n3", "output": "2.0"}
+    ]
+  },
+  {
+    "title": "إيجاد جميع الأعداد الأولية حتى N",
+    "description": "اكتب برنامج يقرأ عدداً n ويطبع جميع الأعداد الأولية من 2 حتى n مفصولة بمسافة",
+    "difficulty": "Hard",
+    "sample_input": "10",
+    "sample_output": "2 3 5 7",
+    "hint": "استخدم خوارزمية Sieve of Eratosthenes",
+    "test_cases": [
+      {"input": "10", "output": "2 3 5 7"},
+      {"input": "2", "output": "2"},
+      {"input": "20", "output": "2 3 5 7 11 13 17 19"}
+    ]
+  },
+  {
+    "title": "برج هانوي",
+    "description": "اكتب برنامج يقرأ عدداً n ويطبع عدد الحركات اللازمة لحل برج هانوي\nالمعادلة: 2^n - 1",
+    "difficulty": "Hard",
+    "sample_input": "3",
+    "sample_output": "7",
+    "hint": "المعادلة: 2^n - 1",
+    "test_cases": [
+      {"input": "3", "output": "7"},
+      {"input": "1", "output": "1"},
+      {"input": "4", "output": "15"},
+      {"input": "10", "output": "1023"}
+    ]
+  },
+  {
+    "title": "البحث الثنائي",
+    "description": "اكتب برنامج يقرأ عدداً n ثم قائمة مرتبة من n عدد ثم عدداً target\nويطبع فهرس العدد المطلوب أو -1 إذا لم يوجد",
+    "difficulty": "Hard",
+    "sample_input": "5\n1\n3\n5\n7\n9\n5",
+    "sample_output": "2",
+    "hint": "استخدم خوارزمية Binary Search",
+    "test_cases": [
+      {"input": "5\n1\n3\n5\n7\n9\n5", "output": "2"},
+      {"input": "4\n2\n4\n6\n8\n6", "output": "2"},
+      {"input": "3\n1\n2\n3\n9", "output": "-1"}
+    ]
+  },
+  {
+    "title": "أطول سلسلة متتالية",
+    "description": "اكتب برنامج يقرأ عدداً n ثم n عدداً\nويطبع طول أطول سلسلة أعداد متزايدة متتالية",
+    "difficulty": "Hard",
+    "sample_input": "6\n1\n2\n3\n1\n2\n3",
+    "sample_output": "3",
+    "hint": "تتبع الطول الحالي وأطول طول وجدته",
+    "test_cases": [
+      {"input": "6\n1\n2\n3\n1\n2\n3", "output": "3"},
+      {"input": "5\n5\n4\n3\n2\n1", "output": "1"},
+      {"input": "4\n1\n2\n3\n4", "output": "4"}
+    ]
+  },
+  {
+    "title": "مصفوفة قطرية",
+    "description": "اكتب برنامج يقرأ عدداً n ويطبع مصفوفة n×n فيها 1 على القطر الرئيسي و 0 في باقي المواضع",
+    "difficulty": "Hard",
+    "sample_input": "3",
+    "sample_output": "1 0 0\n0 1 0\n0 0 1",
+    "hint": "استخدم حلقتين for متداخلتين",
+    "test_cases": [
+      {"input": "3", "output": "1 0 0\n0 1 0\n0 0 1"},
+      {"input": "2", "output": "1 0\n0 1"},
+      {"input": "1", "output": "1"}
+    ]
+  }
+]
